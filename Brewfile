@@ -1,4 +1,5 @@
 tap "dbcli/tap"
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -80,6 +81,8 @@ brew "zsh"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 # Apple TV Aerial screensaver
 cask "aerial"
 # Application launcher and productivity software
@@ -141,6 +144,9 @@ cask "visual-studio-code"
 cask "wireshark"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Dashlane", id: 517914548
+mas "MindNode", id: 1289197285
+mas "WhatsApp", id: 1147396723
 vscode "aaron-bond.better-comments"
 vscode "alefragnani.Bookmarks"
 vscode "alefragnani.project-manager"

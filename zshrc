@@ -1,7 +1,4 @@
 # Set Variables
-# Syntax highligghting for man pages
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
-
 # Homebrew options
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
@@ -57,5 +54,7 @@ function mkcd() {
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
+alias man='batman'
+alias grep='batgrep'
 
 
