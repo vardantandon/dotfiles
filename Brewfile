@@ -38,6 +38,8 @@ brew "libarchive"
 brew "libfido2"
 # Curses-based tool for viewing and analyzing log files
 brew "lnav"
+# Mac App Store command-line interface
+brew "mas"
 # Java-based project management
 brew "maven"
 # CLI for MySQL with auto-completion and syntax highlighting
