@@ -46,6 +46,8 @@ brew "hub"
 brew "jenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Pager program similar to more
+brew "less"
 # Multi-format archive and compression library
 brew "libarchive"
 # Provides library functionality for FIDO U2F & FIDO 2.0, including USB
