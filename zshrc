@@ -51,10 +51,15 @@ function mkcd() {
 	mkdir -p "$@" && cd "$_"
 }
 
+function exists() {
+  command -v $1 >/dev/null 2>&1
+}
+
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
 alias man='batman'
-alias grep='batgrep'
+alias cat='bat'
+#alias grep='batgrep'
 
 
