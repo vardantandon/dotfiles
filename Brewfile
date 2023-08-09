@@ -1,5 +1,6 @@
 tap "dbcli/tap"
 tap "eth-p/software"
+tap "gdubw/gng"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -7,10 +8,18 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "microsoft/git"
 tap "romkatv/powerlevel10k"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Emacs dependency management
+brew "cask"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Tool for exploring each layer in a docker image
+brew "dive"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
 # Modern replacement for 'ls'
@@ -21,6 +30,8 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Easy semantic versioning for projects using Git
+brew "gitversion"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Open-source build automation tool based on the Groovy and Kotlin DSL
@@ -33,6 +44,8 @@ brew "httpie"
 brew "hub"
 # Manage your Java environment
 brew "jenv"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Multi-format archive and compression library
 brew "libarchive"
 # Provides library functionality for FIDO U2F & FIDO 2.0, including USB
@@ -55,6 +68,8 @@ brew "nanorc"
 brew "neofetch"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Package manager for Microsoft development platform including .NET
+brew "nuget"
 # Manage multiple Node.js versions
 brew "nvm"
 # Development kit for the Java programming language
@@ -83,23 +98,37 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
+# Gradle is Not Gradle
+brew "gdubw/gng/gng"
 # Apple TV Aerial screensaver
 cask "aerial"
 # Application launcher and productivity software
 cask "alfred"
+# Enable Windows-like alt-tab
+cask "alt-tab"
 # Automated testing of webapps for Google Chrome
 cask "chromedriver"
 # Clipboard extension app
 cask "clipy"
+# OpenJDK distribution from Amazon
+cask "corretto"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Utility to preview application windows in the dock
+cask "dockview"
 # Online diagram software
 cask "drawio"
+# Screen color temperature controller
+cask "flux"
 cask "git-credential-manager-core"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
+# Tool to optimize images to a smaller size
+cask "imageoptim"
+# HTTP and GraphQL Client
+cask "insomnia"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # JetBrains tools manager
@@ -136,6 +165,8 @@ cask "textmate"
 cask "the-unarchiver"
 # To-do list
 cask "todoist"
+# Virtual machines UI using QEMU
+cask "utm"
 # Virtualizer for x86 hardware
 cask "virtualbox"
 # Open-source code editor
