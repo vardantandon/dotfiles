@@ -4,6 +4,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
 export ZSH="$HOME/.oh-my-zsh"
+export NULLCMD=bat
 
 # Use powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
