@@ -37,7 +37,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
-#export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Add Jenv
 #export PATH="$PATH:$HOME/.jenv/bin"
