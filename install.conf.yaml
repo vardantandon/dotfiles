@@ -21,4 +21,7 @@
       sterr: true    
     - command: ./setup_zsh.zsh
       stdout: true
+      sterr: true    
+    - command: ./setup_node.zsh
+      stdout: true
       sterr: true
