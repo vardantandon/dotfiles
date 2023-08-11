@@ -30,6 +30,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# NVM options
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && \. "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
 #export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
