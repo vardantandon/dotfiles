@@ -5,15 +5,13 @@
 - clean: ['~']
 
 - link:
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore_global
     ~/.zshrc:
     ~/.zshenv:
-    ~/.gitconfig:
     ~/.config/bat:
       create: true
       path: config/bat
-
-- create:
-    - ~/Work
 
 - shell:
     - command: ./setup_homebrew.zsh
